@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+	<!-- fontAwsome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<!-- css link -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+			<h3><a href="">BRANDSHOP</a></h3>
+		</div>
+		<nav>
+			<ul id="menuitems">
+				<li><a href="brand.html">home</a></li>
+				<li><a href="flash.html">product</a></li>
+				<li><a href="discripation.html">about</a></li>
+				<li><a href="">service</a></li>
+				<li><a href="">manu</a></li>
+			</ul>
+		</nav>
+		<img src="images/cart.png"  height="30px" alt="" >
+		<img src="images/manu.png" class="menu-icon" onclick="menutoggle()">
+
+
+	</div>
+
+<div class="flash-sale py-5">
+	<div class="container">
+		<div class="flash-heading">
+			<h4>Flash <span class="sale">Sale</span></h4>
+			<div class="flash-btn">
+				<button class="flash-btn1"><a href="">Profile</a></button>
+				<button class="flash-btn2"><a href="">Products</a></button>
+
+			</div>
+		</div>
+
+		<div class="flash-product">
+			<div class="row">
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-7.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+									
+								</div>
+							</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-8.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-9.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-10.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-7.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+									
+								</div>
+							</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-8.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-9.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-10.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="flash-sale">
+	<div class="container">
+
+		<div class="flash-product">
+			<div class="row">
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-7.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+									
+								</div>
+							</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-8.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-9.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-10.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-7.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+									
+								</div>
+							</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-8.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-9.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 mt-4">
+						<div class="product-1">
+								<div class="product-img">
+									<img src="images/product-10.jpg" alt="" class="img-fluid">
+								</div>
+								<div class="product-text mt-3">
+									<div class="product-name">
+										<h6>Product Name</h6>
+										<p>Company Name</p>
+									</div>
+									<div class="price">
+										<h6 >$ 222</h6>
+										<p>50% discount</p>
+									</div>
+								</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<div class="page-btn py-5 text-right">
+			<button class="page-bnt-1"><a href="">Page 1</a></button>
+			<button class="page-bnt-2"><a href="">Page 2</a></button>
+			<button class="page-bnt-3"><a href="">Page 3</a></button>
+
+		</div>
+	</div>
+</div>
+
+<!--******** Flash sale End **********-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<div class="footer py-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 mt-4">
+				<div class="Brandlink">
+					<h3>Brandlink</h3>
+					<p>Lorem ipsum dolor </p>
+					<p><i class="fas fa-lightbulb"></i> Lorem, ipsum dolor sit amet </p>
+					<p><i class="fas fa-phone-square-alt"></i>Open</p>
+					<ul>
+						<li>9:00 am- 10:00am</li>
+						<li>9:00 am- 10:00am</li>
+						<li>9:00 am- 10:00am</li>
+					</ul>
+				</div>
+
+
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="about-us">
+					<h3 class="mb-3">About Us</h3>
+					<ul>
+						<li>Home</li>
+						<li>Manu</li>
+						<li>Home</li>
+						<li>Manu</li>
+						<li>Home</li>
+						<li>Manu</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="social-link">
+					<h3 class="mb-3">Social platform</h3>
+					<button class="btn-1"><a href="">Facebook</a></button>
+					<button class="btn-2 mt-3"><a href="">Facebook</a></button>
+					<button class="btn-3 mt-3"><a href="">Facebook</a></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- footer -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
